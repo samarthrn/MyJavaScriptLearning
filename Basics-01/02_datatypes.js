@@ -8,6 +8,6 @@ let name ="Samarth"
 let criminal ="false"
 
 //Objects
-const details ={firstname:"Jhonny",lastname:"Sins"}
+const details ={firstname:"Jhon",lastname:"doe"}
 
 console.log(details);
