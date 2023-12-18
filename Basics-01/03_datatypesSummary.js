@@ -10,5 +10,19 @@ Data types are divided into two categories based upon how they are stored in mem
 
 */
 
-const Age    =20
-const Marks = 
+
+// primitive data-types are stored in Stack
+// non-primitive data-types are stored in heap
+
+const Age    =20n
+const Marks = 100.0000101001001
+const MyFunc = function () {
+    console.log("Hello world this is m function")
+}
+MyFunc()
+console.log(Age,Marks)
+
+console.log(typeof MyFunc);
+
+
+
